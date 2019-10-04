@@ -47,7 +47,7 @@ RUN cd /easyswoole \
     && composer require easyswoole/easyswoole=${EASYSWOOLE_VERSION} \
     && php vendor/bin/easyswoole install
 	
-export proxy="socks5://gz04:859898918@192.168.2.254:3128"
+export proxy="socks5://gz04:859898918@192.168.2.254:1080"
 export http_proxy=$proxy
 export https_proxy=$proxy
 export ftp_proxy=$proxy
